@@ -20,3 +20,6 @@ let arr=[1,2,3,4]
 //     return h1*h2
 // })
 // console.log(m) 
+
+
+console.log(window)

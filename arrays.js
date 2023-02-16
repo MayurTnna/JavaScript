@@ -55,3 +55,7 @@ const num=[10,11,40,34,56]
 //     console.log(num[i])
 // }
 
+// console.log(window)
+// window.console.log()
+
+console.log(document)
