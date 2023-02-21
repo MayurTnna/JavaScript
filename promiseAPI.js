@@ -25,7 +25,9 @@ p1.then((value)=>{
 
 p2.then((value)=>{
     console.log(value)
-})
+},((error)=>{
+    console.log("error at p2")
+}))
 
 p3.then((value)=>{
     console.log(value)
@@ -40,7 +42,24 @@ p3.then((value)=>{
 // })
 
 // 2) Promise-settled
-let promise_all=Promise.allSettled([p1,p2,p3])
+// let promise_all=Promise.allSettled([p1,p2,p3])
+// promise_all.then((value)=>{
+//     console.log(value)
+// })
+
+//3) primise-race
+// let promise_all=Promise.race([p1,p2,p3])
+// promise_all.then((value)=>{
+//     console.log(value)
+// })
+//4) promise-any
+let promise_all=Promise.any([p1,p2,p3])
 promise_all.then((value)=>{
     console.log(value)
 })
+
+//5) promise.resolve
+
+
+
+//6) promise.reject
