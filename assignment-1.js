@@ -8,7 +8,8 @@ function sumofdigits(s)
     
     for(var n of ar)
     {
-        sum += Number.parseFloat(n);
+        n=Number.parseFloat(n);
+        sum += n
     }
     
     return sum;

@@ -40,3 +40,7 @@ sumOfDigitsFromString =(str)=>{
   
 
   console.log("The sum of numbers from given string "+str+" is "  +sumOfDigitsFromString(str));
+
+
+
+
