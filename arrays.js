@@ -1,4 +1,4 @@
-let marks= [10,20,30, null,"Man"]
+// let marks= [10,20,30, null,"Man"]
 // console.log(marks.length)
 // for(let i; i<=marks.length; i++){
    
@@ -31,7 +31,7 @@ let marks= [10,20,30, null,"Man"]
 // console.log(num.sort(comapare))
 
 
-const num=[10,11,40,34,56]
+// const num=[10,11,40,34,56]
 // console.log(num.splice(1,1,20,30))
 // console.log(num)
 
@@ -58,4 +58,6 @@ const num=[10,11,40,34,56]
 // console.log(window)
 // window.console.log()
 
-console.log(document)
+// console.log(document)
+console.log("hello")
+console.log(10+10   )
